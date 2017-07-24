@@ -1,0 +1,1 @@
+/home/memo/Appcelerator_Studio_Workspace/ABC/Resources/app.js

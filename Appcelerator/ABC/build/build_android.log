@@ -1,0 +1,1171 @@
+
+23/7/2017 23:20:33
+
+Operating System
+  Name                        = Ubuntu 16.10
+  Version                     = 16.10
+  Architecture                = 32bit
+  # CPUs                      = 4
+  Memory                      = 2098405376
+
+Node.js
+  Node.js Version             = 4.2.6
+  npm Version                 = 3.5.2
+
+Titanium CLI
+  CLI Version                 = 5.0.14
+
+Titanium SDK
+  SDK Version                 = 6.1.1.GA
+  SDK Path                    = /home/memo/.titanium/mobilesdk/linux/6.1.1.GA
+  Target Platform             = android
+
+Command
+  /usr/bin/nodejs /home/memo/.appcelerator/install/6.2.2/package/node_modules/titanium/lib/titanium.js build --platform android --log-level trace --sdk 6.1.1.GA --project-dir /home/memo/Appcelerator_Studio_Workspace/ABC --target device --android-sdk /home/memo/android-sdk-linux --device-id ZX1D9282FM --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 41463 --config-file /tmp/build-1500870020942.json --no-banner --project-dir /home/memo/Appcelerator_Studio_Workspace/ABC
+
+[DEBUG]  Detecting modules in /home/memo/.titanium/modules
+[DEBUG]  Detected android module: facebook 6.1.0 @ /home/memo/.titanium/modules/android/facebook/6.1.0
+[DEBUG]  Detected android module: hyperloop 2.1.2 @ /home/memo/.titanium/modules/android/hyperloop/2.1.2
+[DEBUG]  Detected android module: ti.cloudpush 4.0.3 @ /home/memo/.titanium/modules/android/ti.cloudpush/4.0.3
+[DEBUG]  Detected android module: ti.map 3.0.1 @ /home/memo/.titanium/modules/android/ti.map/3.0.1
+[DEBUG]  Detected android module: ti.touchid 2.1.0 @ /home/memo/.titanium/modules/android/ti.touchid/2.1.0
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.11 @ /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Detected iphone module: hyperloop 2.1.2 @ /home/memo/.titanium/modules/iphone/hyperloop/2.1.2
+[DEBUG]  Detected windows module: hyperloop 2.1.2 @ /home/memo/.titanium/modules/windows/hyperloop/2.1.2
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=test
+[INFO]   Found Titanium module id=ti.cloud version=3.2.11 platform=commonjs deploy-type=test path=/home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  No project level plugins to load
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK Android directory: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android
+[INFO]   Deploy type: test
+[INFO]   Building for target: device
+[INFO]   Building for device: ZX1D9282FM
+[INFO]   Targeting Android SDK API: 23
+[INFO]   Building for the following architectures: armeabi-v7a, x86
+[INFO]   Signing with keystore: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/dev_keystore (tidev)
+[DEBUG]  App ID: com.alumnos.memo
+[DEBUG]  Classname: Abc
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Forcing rebuild: JavaScript files need to be re-encrypted
+[TRACE]  No .aar files to transform
+[TRACE]  offline build file /tmp/build-11879089811f3e8151114ac5a3f369cc63cb7157.json
+[TRACE]  online 1
+[TRACE]  sending request {"json":{"username":"felixmemo04@gmail.com","session":"f385cf75bc1efd283e1c9e76d78ba31335d6d87b mr6zI/4ZqQesrpadSRlWhVyLXhvunW/WrPCzd4lU03P+Jv2qtu0RwzS4ya7vFYlaLCh6I/F8lRwIstrciEOVCPbAx+lAGH+chTbTwV67zqDV7RNPm54ZyKnDWKMh6dZ812VBkvBxQrmrwlOgQhHHztzdmQRFMO0+5n8v7+M9CaDu+pte1B+XhEgGML+DrLqkNaq+DiRGycbjp5aMz4KtUofSvKapjyWiINYbaFJaNJgC32CiY3RB6am4z2TLxiWorI6BNVsuRGt/WWnmKAPq0BncJ41Xycl+hUyUCSnV3ZguBbWp94eq4rR0ZuxLduXFhLtFo7X8RHB/O66unY+euFi8Y5xgrzY+WDDmGpbjI8sdfwnC+yqpl33VuPPpKnIBFNPBs7R63mAcEWRq1SjQRv5x8eWeb64XiCtIPhl2f9UfA3JIay1J8eYBb3gnl+7Qvf7XYKcEKzwY/6UI88MdVfGTLbDyJVpgq9NPrDqikolM0YdzQpcqzQQK2Ozq0SXj844qRY8OtMhjLUvJSxXFTO7/CLAuyBpYOhxb2OJBA+eexYJOYOHR2hMH155YZNX24NR3ZkgLiD077Q1YqqmKYcN8WOi4JpaKGQB8K5UNQr/nZYFF5s2jlCSI99oL6h5MerjjCRG8ZvCO8TJEa/q4WboqMKREC3lNiN6rumYbwA3w0pHX7s4XSemB1LkZ9EBO64bsuuwMCc/8KaAxtEVP1t4DiyulPEZ/8eNercsiGDM=","ipaddress":"192.168.1.80","fingerprint":"da39a3ee5e6b4b0d3255bfef95601890afd80709","fingerprint_description":"Linux with Mac Address:","guid":"473255c0-3d04-4cb0-9ddd-d94fad2f6c05","appid":"com.alumnos.memo","name":"ABC","org_id":421545409674607,"deploytype":"test","tiappxml":"<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ti:app \n  xmlns:ti=\"http://ti.appcelerator.org\">\n  <id>com.alumnos.memo</id>\n  <name>ABC</name>\n  <version>1.0</version>\n  <publisher>memo</publisher>\n  <url/>\n  <description/>\n  <copyright>2017 by memo</copyright>\n  <icon>android.png</icon>\n  <fullscreen>false</fullscreen>\n  <navbar-hidden>false</navbar-hidden>\n  <analytics>true</analytics>\n  <guid>473255c0-3d04-4cb0-9ddd-d94fad2f6c05</guid>\n  <property name=\"ti.ui.defaultunit\" type=\"string\">dp</property>\n  <property name=\"run-on-main-thread\" type=\"bool\">***</property>\n  <ios>\n    <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>\n    <use-app-thinning>true</use-app-thinning>\n    <plist>\n      <dict>\n        <key>UISupportedInterfaceOrientations~iphone</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n        </array>\n        <key>UISupportedInterfaceOrientations~ipad</key>\n        <array>\n          <string>UIInterfaceOrientationPortrait</string>\n          <string>UIInterfaceOrientationPortraitUpsideDown</string>\n          <string>UIInterfaceOrientationLandscapeLeft</string>\n          <string>UIInterfaceOrientationLandscapeRight</string>\n        </array>\n        <key>UIRequiresPersistentWiFi</key>\n        <false/>\n        <key>UIPrerenderedIcon</key>\n        <false/>\n        <key>UIStatusBarHidden</key>\n        <false/>\n        <key>UIStatusBarStyle</key>\n        <string>UIStatusBarStyleDefault</string>\n      </dict>\n    </plist>\n  </ios>\n  <android \n    xmlns:android=\"http://schemas.android.com/apk/res/android\"/>\n    <mobileweb>\n      <precache/>\n      <splash>\n        <enabled>true</enabled>\n        <inline-css-images>true</inline-css-images>\n      </splash>\n      <theme>default</theme>\n    </mobileweb>\n    <modules>\n      <module platform=\"commonjs\">ti.cloud</module>\n    </modules>\n    <deployment-targets>\n      <target device=\"iphone\">false</target>\n      <target device=\"ipad\">false</target>\n      <target device=\"android\">true</target>\n      <target device=\"mobileweb\">false</target>\n    </deployment-targets>\n    <sdk-version>6.1.1.GA</sdk-version>\n    <property name=\"appc-app-id\" type=\"string\">597533775d778219088157a9</property>\n    <property name=\"acs-authbase-url-development\" type=\"string\">***</property>\n    <property name=\"acs-base-url-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-development\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-development\" type=\"string\">***</property>\n    <property name=\"acs-api-key-development\" type=\"string\">***</property>\n    <property name=\"acs-username-development\" type=\"string\">***</property>\n    <property name=\"acs-password-development\" type=\"string\">***</property>\n    <property name=\"acs-authbase-url-production\" type=\"string\">***</property>\n    <property name=\"acs-base-url-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-secret-production\" type=\"string\">***</property>\n    <property name=\"acs-oauth-key-production\" type=\"string\">***</property>\n    <property name=\"acs-api-key-production\" type=\"string\">***</property>\n    <property name=\"acs-username-production\" type=\"string\">***</property>\n    <property name=\"acs-password-production\" type=\"string\">***</property>\n    <property name=\"appc-org-id\" type=\"string\">421545409674607</property>\n    <property name=\"appc-creator-user-id\" type=\"string\">93a39530-116b-4c3f-8b0b-1c6f4abdeab0</property>\n  </ti:app>","modules":[{"id":"ti.cloud","platform":["commonjs"],"deployType":["test"],"modulePath":"/home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11","version":"3.2.11","manifest":{"version":"3.2.11","description":"Appcelerator Cloud Services","author":"Dawson Toth, Jeff English, Jon Alter, Paul Lv, Michael Goff, and Pedro Enrique","license":"Appcelerator Commercial License","copyright":"Copyright (c) 2011-2014 by Appcelerator,  Inc.","name":"ti.cloud","moduleid":"ti.cloud","guid":"1056b5d2-2bb5-4339-b930-297637aeec4e","platform":"commonjs","minsdk":"2.1.0"},"native":false,"libFile":"/home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11/ti.cloud.js"}]},"gzip":true,"followAllRedirects":true,"url":"https://platform.appcelerator.com/api/v1/auth/build-verify"}
+[TRACE]  result from /build-verify=> {"key":"MYTjmc7+HtBwiO4sHsgFRA==","pepper":"/gQDoj/Y5hcDimuN/EOqdw==","hmacKey":"wPftbOOvq1DUHA/XnB0DWw==","o":421545409674607,"u":"93a39530-116b-4c3f-8b0b-1c6f4abdeab0","p":"free","i":"597575945d77821908815998","success":true}, err=null
+[INFO]   JavaScript files need to be encrypted
+[DEBUG]  Copying /home/memo/Appcelerator_Studio_Workspace/ABC/Resources
+[DEBUG]  Ignoring /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android
+[WARN]   Overwriting file /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/android .png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/assets/images/android .png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/android .png
+[WARN]   Overwriting file /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/book.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/assets/images/book.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/book.png
+[WARN]   Overwriting file /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/phone-receiver.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/assets/images/phone-receiver.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/phone-receiver.png
+[WARN]   Overwriting file /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/plus-18-movie.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/assets/images/plus-18-movie.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/plus-18-movie.png
+[WARN]   Overwriting file /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/success.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/assets/images/success.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/success.png
+[WARN]   Overwriting file /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/user.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/assets/images/user.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/assets/images/user.png
+[DEBUG]  Copying /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android
+[WARN]   Overwriting file /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/appicon.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/appicon.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/appicon.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-long-land-hdpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-long-land-hdpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-long-land-ldpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-long-land-ldpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-long-port-hdpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-long-port-hdpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-long-port-ldpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-long-port-ldpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-notlong-land-hdpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-notlong-land-hdpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-notlong-land-ldpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-notlong-land-ldpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-notlong-land-mdpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-notlong-land-mdpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-notlong-port-hdpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-notlong-port-hdpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-notlong-port-ldpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-notlong-port-ldpi/background.png
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/android/images/res-notlong-port-mdpi/default.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-notlong-port-mdpi/background.png
+[DEBUG]  Copying /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11
+[DEBUG]  Symlinking /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11/LICENSE => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/ti.cloud/LICENSE
+[DEBUG]  Ignoring /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11/documentation
+[DEBUG]  Ignoring /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11/example
+[DEBUG]  Symlinking /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11/manifest => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/ti.cloud/manifest
+[WARN]   Overwriting file /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/ti.cloud/package.json
+[DEBUG]  Symlinking /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11/package.json => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/ti.cloud/package.json
+[DEBUG]  Copying /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11/assets
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/Resources/android.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/android.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Symlinking /home/memo/Appcelerator_Studio_Workspace/ABC/Resources/app.js => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/assets/app.js
+[DEBUG]  Symlinking /home/memo/.titanium/modules/commonjs/ti.cloud/3.2.11/ti.cloud.js => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/assets/ti.cloud/ti.cloud.js
+[INFO]   Encrypting JavaScript files: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium_prep.linux32 "com.alumnos.memo" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/assets" "app.js" "ti.cloud/ti.cloud.js" "_app_props_.json"
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-v8.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/aps-analytics.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/jaxen-1.1.1.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/ti-commons-codec-1.3.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-common.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-multidex.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-animated-vector-drawable.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-annotations.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4-internal_impl.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v7-appcompat.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-vector-drawable.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.jar
+[DEBUG]  Adding dependency library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/cardview-v7-23.4.0.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.jar
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.jar
+[DEBUG]  Unknown namespace api, skipping
+[DEBUG]  Adding library /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.jar
+[DEBUG]  Unknown namespace app.deploytype, skipping
+[DEBUG]  Unknown namespace ui.ios, skipping
+[INFO]   Writing /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets/app.json
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.res.zip
+[DEBUG]  Copying /tmp/117623-23024-uaqrwm/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.res.zip
+[DEBUG]  Merging /tmp/117623-23024-1ogkbty/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.res.zip
+[DEBUG]  Merging /tmp/117623-23024-196ud60/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.res.zip
+[DEBUG]  Merging /tmp/117623-23024-1taq3xj/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.res.zip
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/drawable/btn_check_buttonless_on_64.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/drawable/btn_more_64.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/btn_more_64.png
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/drawable/disclosure_64.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/disclosure_64.png
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_tabgroup.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_tabgroup.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_tabgroup.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_tabgroup.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_checkbox.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_checkbox.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_date_picker_spinner.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_date_picker_spinner.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_edittext.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_edittext.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_edittext.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_edittext.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_list_header_or_footer.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_list_header_or_footer.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_list_item.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_list_item.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_list_item.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_list_item.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_spinner.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_spinner.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_spinner.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_spinner.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_switchcompat.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_switchcompat.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_time_picker_spinner.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Copying /tmp/117623-23024-1ln9kzo/res/layout/titanium_ui_time_picker_spinner.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Merging /tmp/117623-23024-1ln9kzo/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.res.zip
+[DEBUG]  Merging /tmp/117623-23024-14jdmcr/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.res.zip
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_fade_in.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_fade_in.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_fade_in.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_fade_in.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_fade_out.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_fade_out.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_fade_out.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_fade_out.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_grow_fade_in_from_bottom.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_grow_fade_in_from_bottom.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_popup_enter.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_popup_enter.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_popup_enter.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_popup_enter.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_popup_exit.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_popup_exit.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_popup_exit.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_popup_exit.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_shrink_fade_out_from_bottom.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_shrink_fade_out_from_bottom.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_slide_in_bottom.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_slide_in_bottom.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_slide_in_top.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_slide_in_top.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_slide_in_top.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_slide_in_top.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_slide_out_bottom.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_slide_out_bottom.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_slide_out_top.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_slide_out_top.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/anim/abc_slide_out_top.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/anim/abc_slide_out_top.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_background_cache_hint_selector_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_background_cache_hint_selector_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_background_cache_hint_selector_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_background_cache_hint_selector_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_primary_text_disable_only_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_primary_text_disable_only_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_primary_text_disable_only_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_primary_text_disable_only_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_primary_text_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_primary_text_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_primary_text_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_primary_text_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_primary_text_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_primary_text_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_search_url_text.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_search_url_text.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_search_url_text.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_search_url_text.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_secondary_text_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_secondary_text_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_secondary_text_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/abc_secondary_text_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/switch_thumb_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/switch_thumb_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/switch_thumb_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/switch_thumb_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/switch_thumb_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/switch_thumb_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color/switch_thumb_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color/switch_thumb_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color-v11/abc_background_cache_hint_selector_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color-v11/abc_background_cache_hint_selector_material_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color-v11/abc_background_cache_hint_selector_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color-v11/abc_background_cache_hint_selector_material_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color-v23/abc_color_highlight_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/color-v23/abc_color_highlight_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_borderless_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_borderless_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_check_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_check_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_check_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_check_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_colored_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_colored_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_default_mtrl_shape.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_default_mtrl_shape.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_radio_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_btn_radio_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_cab_background_internal_bg.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_cab_background_internal_bg.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_cab_background_top_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_cab_background_top_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_dialog_material_background_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_dialog_material_background_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_dialog_material_background_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_dialog_material_background_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_edit_text_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_edit_text_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_edit_text_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_edit_text_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_item_background_holo_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_item_background_holo_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_item_background_holo_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_item_background_holo_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_list_selector_background_transition_holo_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_list_selector_background_transition_holo_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_list_selector_background_transition_holo_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_list_selector_background_transition_holo_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_list_selector_holo_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_list_selector_holo_dark.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_list_selector_holo_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_list_selector_holo_light.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_ratingbar_full_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_ratingbar_full_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_ratingbar_indicator_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_ratingbar_indicator_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_ratingbar_indicator_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_ratingbar_indicator_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_ratingbar_small_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_ratingbar_small_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_ratingbar_small_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_ratingbar_small_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_seekbar_thumb_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_seekbar_thumb_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_seekbar_thumb_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_seekbar_thumb_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_seekbar_track_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_seekbar_track_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_seekbar_track_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_seekbar_track_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_spinner_textfield_background_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_spinner_textfield_background_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_switch_thumb_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_switch_thumb_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_tab_indicator_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_tab_indicator_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_text_cursor_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_text_cursor_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_textfield_search_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable/abc_textfield_search_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_list_focused_holo.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_list_focused_holo.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-v21/abc_action_bar_item_background_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-v21/abc_action_bar_item_background_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-v21/abc_btn_colored_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-v21/abc_btn_colored_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-v21/abc_edit_text_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-v21/abc_edit_text_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-v21/abc_edit_text_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-v21/abc_edit_text_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-v23/abc_control_background_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-v23/abc_control_background_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_bar_title_item.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_bar_title_item.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_bar_up_container.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_bar_up_container.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_bar_view_list_nav_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_bar_view_list_nav_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_menu_item_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_menu_item_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_menu_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_menu_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_menu_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_menu_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_mode_bar.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_mode_bar.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_mode_bar.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_mode_bar.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_mode_close_item_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_action_mode_close_item_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_activity_chooser_view.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_activity_chooser_view.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_activity_chooser_view_list_item.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_activity_chooser_view_list_item.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_alert_dialog_button_bar_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_alert_dialog_button_bar_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_alert_dialog_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_alert_dialog_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_dialog_title_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_dialog_title_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_dialog_title_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_dialog_title_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_expanded_menu_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_expanded_menu_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_list_menu_item_checkbox.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_list_menu_item_checkbox.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_list_menu_item_icon.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_list_menu_item_icon.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_list_menu_item_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_list_menu_item_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_list_menu_item_radio.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_list_menu_item_radio.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_popup_menu_item_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_popup_menu_item_layout.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_screen_content_include.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_screen_content_include.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_screen_content_include.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_screen_content_include.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_screen_simple.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_screen_simple.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_screen_simple.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_screen_simple.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_screen_simple_overlay_action_mode.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_screen_simple_overlay_action_mode.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_screen_toolbar.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_screen_toolbar.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_screen_toolbar.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_screen_toolbar.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_search_dropdown_item_icons_2line.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_search_dropdown_item_icons_2line.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_search_view.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_search_view.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_search_view.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_search_view.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_select_dialog_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_select_dialog_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/abc_select_dialog_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/abc_select_dialog_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_media_action.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_media_action.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_media_action.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_media_action.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_media_cancel_action.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_media_cancel_action.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_media_cancel_action.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_media_cancel_action.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_big_media.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_big_media.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_big_media.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_big_media.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_big_media_narrow.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_big_media_narrow.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_lines.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_lines.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_lines.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_lines.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_media.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_media.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_media.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_media.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_part_chronometer.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_part_chronometer.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_part_time.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_part_time.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/notification_template_part_time.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/notification_template_part_time.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/select_dialog_item_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/select_dialog_item_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/select_dialog_item_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/select_dialog_item_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/select_dialog_multichoice_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/select_dialog_multichoice_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/select_dialog_singlechoice_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/select_dialog_singlechoice_material.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/support_simple_spinner_dropdown_item.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/layout/support_simple_spinner_dropdown_item.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Merging /tmp/117623-23024-7uze5l/res/values/values.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-af/values-af.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-af/values-af.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-am/values-am.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-am/values-am.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ar/values-ar.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ar/values-ar.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-az-rAZ/values-az-rAZ.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-az-rAZ/values-az-rAZ.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-bg/values-bg.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-bg/values-bg.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-bn-rBD/values-bn-rBD.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-bn-rBD/values-bn-rBD.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ca/values-ca.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ca/values-ca.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-cs/values-cs.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-cs/values-cs.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-da/values-da.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-da/values-da.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-de/values-de.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-de/values-de.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-el/values-el.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-el/values-el.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-en-rAU/values-en-rAU.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-en-rAU/values-en-rAU.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-en-rGB/values-en-rGB.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-en-rGB/values-en-rGB.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-en-rIN/values-en-rIN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-en-rIN/values-en-rIN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-es/values-es.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-es/values-es.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-es-rUS/values-es-rUS.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-es-rUS/values-es-rUS.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-et-rEE/values-et-rEE.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-et-rEE/values-et-rEE.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-eu-rES/values-eu-rES.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-eu-rES/values-eu-rES.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-fa/values-fa.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-fa/values-fa.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-fi/values-fi.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-fi/values-fi.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-fr/values-fr.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-fr/values-fr.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-fr-rCA/values-fr-rCA.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-fr-rCA/values-fr-rCA.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-gl-rES/values-gl-rES.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-gl-rES/values-gl-rES.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-gu-rIN/values-gu-rIN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-gu-rIN/values-gu-rIN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-h320dp-v13/values-h320dp-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-h320dp-v13/values-h320dp-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-h720dp-v13/values-h720dp-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-h720dp-v13/values-h720dp-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-hdpi-v4/values-hdpi-v4.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-hdpi-v4/values-hdpi-v4.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-hi/values-hi.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-hi/values-hi.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-hr/values-hr.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-hr/values-hr.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-hu/values-hu.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-hu/values-hu.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-hy-rAM/values-hy-rAM.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-hy-rAM/values-hy-rAM.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-in/values-in.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-in/values-in.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-is-rIS/values-is-rIS.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-is-rIS/values-is-rIS.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-it/values-it.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-it/values-it.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-iw/values-iw.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-iw/values-iw.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ja/values-ja.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ja/values-ja.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ka-rGE/values-ka-rGE.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ka-rGE/values-ka-rGE.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-kk-rKZ/values-kk-rKZ.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-kk-rKZ/values-kk-rKZ.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-km-rKH/values-km-rKH.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-km-rKH/values-km-rKH.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-kn-rIN/values-kn-rIN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-kn-rIN/values-kn-rIN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ko/values-ko.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ko/values-ko.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ky-rKG/values-ky-rKG.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ky-rKG/values-ky-rKG.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-land/values-land.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-land/values-land.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-large-v4/values-large-v4.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-large-v4/values-large-v4.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ldltr-v21/values-ldltr-v21.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ldltr-v21/values-ldltr-v21.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-lo-rLA/values-lo-rLA.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-lo-rLA/values-lo-rLA.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-lt/values-lt.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-lt/values-lt.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-lv/values-lv.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-lv/values-lv.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-mk-rMK/values-mk-rMK.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-mk-rMK/values-mk-rMK.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ml-rIN/values-ml-rIN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ml-rIN/values-ml-rIN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-mn-rMN/values-mn-rMN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-mn-rMN/values-mn-rMN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-mr-rIN/values-mr-rIN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-mr-rIN/values-mr-rIN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ms-rMY/values-ms-rMY.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ms-rMY/values-ms-rMY.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-my-rMM/values-my-rMM.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-my-rMM/values-my-rMM.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-nb/values-nb.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-nb/values-nb.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ne-rNP/values-ne-rNP.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ne-rNP/values-ne-rNP.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-night-v8/values-night-v8.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-night-v8/values-night-v8.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-nl/values-nl.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-nl/values-nl.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-pa-rIN/values-pa-rIN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-pa-rIN/values-pa-rIN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-pl/values-pl.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-pl/values-pl.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-port/values-port.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-port/values-port.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-pt/values-pt.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-pt/values-pt.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-pt-rBR/values-pt-rBR.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-pt-rBR/values-pt-rBR.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-pt-rPT/values-pt-rPT.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-pt-rPT/values-pt-rPT.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ro/values-ro.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ro/values-ro.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ru/values-ru.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ru/values-ru.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-si-rLK/values-si-rLK.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-si-rLK/values-si-rLK.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-sk/values-sk.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-sk/values-sk.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-sl/values-sl.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-sl/values-sl.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-sq-rAL/values-sq-rAL.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-sq-rAL/values-sq-rAL.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-sr/values-sr.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-sr/values-sr.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-sv/values-sv.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-sv/values-sv.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-sw/values-sw.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-sw/values-sw.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-sw600dp-v13/values-sw600dp-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-sw600dp-v13/values-sw600dp-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ta-rIN/values-ta-rIN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ta-rIN/values-ta-rIN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-te-rIN/values-te-rIN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-te-rIN/values-te-rIN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-th/values-th.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-th/values-th.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-tl/values-tl.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-tl/values-tl.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-tr/values-tr.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-tr/values-tr.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-uk/values-uk.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-uk/values-uk.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-ur-rPK/values-ur-rPK.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-ur-rPK/values-ur-rPK.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-uz-rUZ/values-uz-rUZ.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-uz-rUZ/values-uz-rUZ.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v11/values-v11.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v11/values-v11.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v12/values-v12.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v12/values-v12.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v13/values-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v13/values-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v14/values-v14.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v14/values-v14.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v17/values-v17.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v17/values-v17.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v18/values-v18.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v18/values-v18.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v21/values-v21.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v21/values-v21.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v22/values-v22.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v22/values-v22.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-v23/values-v23.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v23/values-v23.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-vi/values-vi.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-vi/values-vi.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-w360dp-v13/values-w360dp-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-w360dp-v13/values-w360dp-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-w480dp-v13/values-w480dp-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-w480dp-v13/values-w480dp-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-w500dp-v13/values-w500dp-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-w500dp-v13/values-w500dp-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-w600dp-v13/values-w600dp-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-w600dp-v13/values-w600dp-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-w720dp-v13/values-w720dp-v13.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-w720dp-v13/values-w720dp-v13.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-xlarge-land-v4/values-xlarge-land-v4.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-xlarge-land-v4/values-xlarge-land-v4.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-xlarge-v4/values-xlarge-v4.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-xlarge-v4/values-xlarge-v4.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-zh-rCN/values-zh-rCN.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-zh-rCN/values-zh-rCN.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-zh-rHK/values-zh-rHK.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-zh-rHK/values-zh-rHK.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-zh-rTW/values-zh-rTW.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-zh-rTW/values-zh-rTW.xml
+[DEBUG]  Copying /tmp/117623-23024-7uze5l/res/values-zu/values-zu.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-zu/values-zu.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.res.zip
+[DEBUG]  Merging /tmp/117623-23024-l61fbl/res/values/values.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[DEBUG]  Merging /tmp/117623-23024-l61fbl/res/values-v23/values-v23.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values-v23/values-v23.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.res.zip
+[DEBUG]  Merging /tmp/117623-23024-37skg5/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.res.zip
+[DEBUG]  Merging /tmp/117623-23024-oxqdxf/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.res.zip
+[DEBUG]  Merging /tmp/117623-23024-170cjn6/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[INFO]   Extracting module resources: /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.res.zip
+[DEBUG]  Merging /tmp/117623-23024-hn44t7/res/values/strings.xml => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/values.xml
+[DEBUG]  Removing old file: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/.classpath
+[DEBUG]  Removing old file: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/.gitignore
+[DEBUG]  Removing old file: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/.project
+[DEBUG]  Removing old file: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/AndroidManifest.xml
+[DEBUG]  Removing old file: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/default.properties
+[DEBUG]  Removing old file: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/java-sources.txt
+[DEBUG]  Copying template /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/AppInfo.java => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/com/alumnos/memo/AbcAppInfo.java
+[DEBUG]  Copying template /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/App.java => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/com/alumnos/memo/AbcApplication.java
+[DEBUG]  Copying template /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/Activity.java => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/com/alumnos/memo/AbcActivity.java
+[DEBUG]  Copying template /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/project => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/.project
+[DEBUG]  Copying template /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/default.properties => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/default.properties
+[DEBUG]  Copying /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/gitignore => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/.gitignore
+[DEBUG]  Copying /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/templates/build/classpath => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/.classpath
+[INFO]   No aidl files to compile, continuing
+[INFO]   Generating i18n files
+[DEBUG]  Writing en strings => /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/strings.xml
+[INFO]   Generating /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res/values/theme.xml
+[INFO]   Running AAPT: /home/memo/android-sdk-linux/build-tools/23.0.1/aapt "package" "-f" "-m" "-J" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen" "-M" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/AndroidManifest.xml" "-A" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/assets" "-S" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/res" "-I" "/home/memo/android-sdk-linux/platforms/android-23/android.jar" "-F" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/app.ap_" "--output-text-symbols" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/intermediates/bundles" "--no-version-vectors" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat:android.support.v7.cardview"
+[INFO]   Building Java source files: /usr/lib/jvm/java-8-oracle/bin/javac "-J-Xmx1024M" "-encoding" "utf8" "-bootclasspath" "/home/memo/android-sdk-linux/platforms/android-23/android.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-v8.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/aps-analytics.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/jaxen-1.1.1.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/ti-commons-codec-1.3.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-common.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-multidex.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/nineoldandroids-appc-2.4.0.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-animated-vector-drawable.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-annotations.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4-internal_impl.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v7-appcompat.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-vector-drawable.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/cardview-v7-23.4.0.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.jar:/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/lib/titanium-verify.jar:R.class:AbcActivity.class:AbcAppInfo.class:AbcApplication.class:AssetCryptImpl.class" "-d" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/java-sources.txt"
+[INFO]   Running dexer: /usr/lib/jvm/java-8-oracle/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/home/memo/android-sdk-linux/platform-tools" "-jar" "/home/memo/android-sdk-linux/build-tools/23.0.1/lib/dx.jar" "--dex" "--multi-dex" "--output=/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/dexfiles" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/classes" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/lib/titanium-verify.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-v8.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/aps-analytics.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/jaxen-1.1.1.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/ti-commons-codec-1.3.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-common.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-multidex.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/nineoldandroids-appc-2.4.0.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-animated-vector-drawable.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-annotations.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4-internal_impl.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v7-appcompat.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-vector-drawable.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/cardview-v7-23.4.0.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.jar" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.jar"
+[INFO]   Creating unsigned apk
+[DEBUG]  Processing /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/app.ap_
+[DEBUG]  Deflating AndroidManifest.xml
+[DEBUG]  Adding assets/Resources/android.png
+[DEBUG]  Adding assets/Resources/appicon.png
+[DEBUG]  Adding assets/Resources/assets/images/android .png
+[DEBUG]  Adding assets/Resources/assets/images/book.png
+[DEBUG]  Adding assets/Resources/assets/images/phone-receiver.png
+[DEBUG]  Adding assets/Resources/assets/images/plus-18-movie.png
+[DEBUG]  Adding assets/Resources/assets/images/success.png
+[DEBUG]  Adding assets/Resources/assets/images/user.png
+[DEBUG]  Deflating assets/Resources/ti.cloud/LICENSE
+[DEBUG]  Deflating assets/Resources/ti.cloud/manifest
+[DEBUG]  Deflating assets/Resources/ti.cloud/package.json
+[DEBUG]  Deflating assets/app.json
+[DEBUG]  Deflating assets/index.json
+[DEBUG]  Deflating res/anim/abc_fade_in.xml
+[DEBUG]  Deflating res/anim/abc_fade_out.xml
+[DEBUG]  Deflating res/anim/abc_grow_fade_in_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_popup_enter.xml
+[DEBUG]  Deflating res/anim/abc_popup_exit.xml
+[DEBUG]  Deflating res/anim/abc_shrink_fade_out_from_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_in_top.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_bottom.xml
+[DEBUG]  Deflating res/anim/abc_slide_out_top.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color-v11/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color-v23/abc_color_highlight_material.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_dark.xml
+[DEBUG]  Deflating res/color/abc_background_cache_hint_selector_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_disable_only_material_light.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_primary_text_material_light.xml
+[DEBUG]  Deflating res/color/abc_search_url_text.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_dark.xml
+[DEBUG]  Deflating res/color/abc_secondary_text_material_light.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_dark.xml
+[DEBUG]  Deflating res/color/switch_thumb_material_light.xml
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v17/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-long-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-long-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-notlong-land-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-land-mdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-hdpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-ldpi-v4/background.png
+[DEBUG]  Adding res/drawable-notlong-port-mdpi-v4/background.png
+[DEBUG]  Deflating res/drawable-v21/abc_action_bar_item_background_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_edit_text_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_ratingbar_indicator_material.xml
+[DEBUG]  Deflating res/drawable-v21/abc_ratingbar_small_material.xml
+[DEBUG]  Deflating res/drawable-v23/abc_control_background_material.xml
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_go_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_clear_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_moreoverflow_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[DEBUG]  Adding res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[DEBUG]  Deflating res/drawable/abc_btn_borderless_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_check_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_colored_material.xml
+[DEBUG]  Deflating res/drawable/abc_btn_default_mtrl_shape.xml
+[DEBUG]  Deflating res/drawable/abc_btn_radio_material.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_internal_bg.xml
+[DEBUG]  Deflating res/drawable/abc_cab_background_top_material.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_dark.xml
+[DEBUG]  Deflating res/drawable/abc_dialog_material_background_light.xml
+[DEBUG]  Deflating res/drawable/abc_edit_text_material.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_item_background_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_background_transition_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_dark.xml
+[DEBUG]  Deflating res/drawable/abc_list_selector_holo_light.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_full_material.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_indicator_material.xml
+[DEBUG]  Deflating res/drawable/abc_ratingbar_small_material.xml
+[DEBUG]  Deflating res/drawable/abc_seekbar_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_seekbar_track_material.xml
+[DEBUG]  Deflating res/drawable/abc_spinner_textfield_background_material.xml
+[DEBUG]  Deflating res/drawable/abc_switch_thumb_material.xml
+[DEBUG]  Deflating res/drawable/abc_tab_indicator_material.xml
+[DEBUG]  Deflating res/drawable/abc_text_cursor_material.xml
+[DEBUG]  Deflating res/drawable/abc_textfield_search_material.xml
+[DEBUG]  Adding res/drawable/android.png
+[DEBUG]  Adding res/drawable/background.png
+[DEBUG]  Adding res/drawable/btn_check_buttonless_on_64.png
+[DEBUG]  Adding res/drawable/btn_more_64.png
+[DEBUG]  Adding res/drawable/disclosure_64.png
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout-v17/abc_search_view.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_lines.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_media.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout-v17/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout-v17/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout-v17/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout-v21/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout-v21/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_title_item.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_up_container.xml
+[DEBUG]  Deflating res/layout/abc_action_bar_view_list_nav_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_bar.xml
+[DEBUG]  Deflating res/layout/abc_action_mode_close_item_material.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view.xml
+[DEBUG]  Deflating res/layout/abc_activity_chooser_view_list_item.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_button_bar_material.xml
+[DEBUG]  Deflating res/layout/abc_alert_dialog_material.xml
+[DEBUG]  Deflating res/layout/abc_dialog_title_material.xml
+[DEBUG]  Deflating res/layout/abc_expanded_menu_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_checkbox.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_icon.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_list_menu_item_radio.xml
+[DEBUG]  Deflating res/layout/abc_popup_menu_item_layout.xml
+[DEBUG]  Deflating res/layout/abc_screen_content_include.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple.xml
+[DEBUG]  Deflating res/layout/abc_screen_simple_overlay_action_mode.xml
+[DEBUG]  Deflating res/layout/abc_screen_toolbar.xml
+[DEBUG]  Deflating res/layout/abc_search_dropdown_item_icons_2line.xml
+[DEBUG]  Deflating res/layout/abc_search_view.xml
+[DEBUG]  Deflating res/layout/abc_select_dialog_material.xml
+[DEBUG]  Deflating res/layout/notification_media_action.xml
+[DEBUG]  Deflating res/layout/notification_media_cancel_action.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media.xml
+[DEBUG]  Deflating res/layout/notification_template_big_media_narrow.xml
+[DEBUG]  Deflating res/layout/notification_template_lines.xml
+[DEBUG]  Deflating res/layout/notification_template_media.xml
+[DEBUG]  Deflating res/layout/notification_template_part_chronometer.xml
+[DEBUG]  Deflating res/layout/notification_template_part_time.xml
+[DEBUG]  Deflating res/layout/select_dialog_item_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_multichoice_material.xml
+[DEBUG]  Deflating res/layout/select_dialog_singlechoice_material.xml
+[DEBUG]  Deflating res/layout/support_simple_spinner_dropdown_item.xml
+[DEBUG]  Deflating res/layout/titanium_tabgroup.xml
+[DEBUG]  Deflating res/layout/titanium_ui_checkbox.xml
+[DEBUG]  Deflating res/layout/titanium_ui_date_picker_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_edittext.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_header_or_footer.xml
+[DEBUG]  Deflating res/layout/titanium_ui_list_item.xml
+[DEBUG]  Deflating res/layout/titanium_ui_spinner.xml
+[DEBUG]  Deflating res/layout/titanium_ui_switchcompat.xml
+[DEBUG]  Deflating res/layout/titanium_ui_time_picker_spinner.xml
+[DEBUG]  Deflating resources.arsc
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-v8.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-analytics.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/aps-analytics.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-android.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/jaxen-1.1.1.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/ti-commons-codec-1.3.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/kroll-common.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/titanium.jar
+[DEBUG]  Deflating org/appcelerator/titanium/build.properties
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/background.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_144.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_192.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_36.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_72.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_check_buttonless_on_96.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_144.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_192.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_36.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_48.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_72.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_more_96.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_normal.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_pressed.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/btn_picker_selected.9.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/default_icon.png
+[DEBUG]  Adding org/appcelerator/titanium/res/drawable/photoDefault.png
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-multidex.jar
+[DEBUG]  Deflating android-support-multidex.version.txt
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-filesystem.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-app.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-ui.jar
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/binding.min.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/json2.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.js
+[DEBUG]  Deflating ti/modules/titanium/ui/widget/webview/polling.min.js
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/nineoldandroids-appc-2.4.0.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-media.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-appcompat.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-animated-vector-drawable.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-annotations.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v4-internal_impl.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-v7-appcompat.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/android-support-vector-drawable.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-cardview.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/cardview-v7-23.4.0.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-locale.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-network.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-xml.jar
+[DEBUG]  Processing /home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/modules/titanium-platform.jar
+[INFO]   Processing /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/dexfiles
+[DEBUG]  Adding classes.dex
+[INFO]   Processing /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/src
+[DEBUG]  Adding lib/armeabi-v7a/libc++_shared.so
+[DEBUG]  Adding lib/armeabi-v7a/libkroll-v8.so
+[DEBUG]  Adding lib/armeabi-v7a/libtiverify.so
+[DEBUG]  Adding lib/x86/libc++_shared.so
+[DEBUG]  Adding lib/x86/libkroll-v8.so
+[DEBUG]  Adding lib/x86/libtiverify.so
+[INFO]   Writing unsigned apk: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/app-unsigned.apk
+[INFO]   Using MD5withRSA signature algorithm
+[INFO]   Signing apk: /usr/lib/jvm/java-8-oracle/bin/jarsigner "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "/home/memo/.titanium/mobilesdk/linux/6.1.1.GA/android/dev_keystore" "-storepass" "*******" "-signedjar" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/ABC.apk" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: /home/memo/android-sdk-linux/build-tools/23.0.1/zipalign "-v" "4" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/ABC.apk" "/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/ABC.apkz"
+[INFO]   Writing build manifest: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/build-manifest.json
+[INFO]   Making sure the adb server is running
+[INFO]   Installing apk: /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/ABC.apk
+[INFO]   Installing app on device: XT1064
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: /usr/bin/adb -s ZX1D9282FM install -r -d /home/memo/Appcelerator_Studio_Workspace/ABC/build/android/bin/ABC.apk
+[INFO]   App successfully installed
+[INFO]   Starting app: com.alumnos.memo/.AbcActivity
+[DEBUG]  Trying to start the app...
+[INFO]   Application pid: 20555
+[INFO]   Project built successfully in 3m 4s 248ms

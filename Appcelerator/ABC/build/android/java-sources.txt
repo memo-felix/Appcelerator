@@ -1,0 +1,8 @@
+"/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/android/support/v7/appcompat/R.java"
+"/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/android/support/v7/cardview/R.java"
+"/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/com/alumnos/memo/AbcActivity.java"
+"/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/com/alumnos/memo/AbcAppInfo.java"
+"/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/com/alumnos/memo/AbcApplication.java"
+"/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/com/alumnos/memo/AssetCryptImpl.java"
+"/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/com/alumnos/memo/R.java"
+"/home/memo/Appcelerator_Studio_Workspace/ABC/build/android/gen/ti/modules/titanium/ui/R.java"

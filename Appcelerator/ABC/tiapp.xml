@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <id>com.alumnos.memo</id>
+    <name>ABC</name>
+    <version>1.0</version>
+    <publisher>memo</publisher>
+    <url/>
+    <description/>
+    <copyright>2017 by memo</copyright>
+    <icon>android.png</icon>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>473255c0-3d04-4cb0-9ddd-d94fad2f6c05</guid>
+    <property name="ti.ui.defaultunit" type="string">dp</property>
+    <property name="run-on-main-thread" type="bool">true</property>
+    <ios>
+        <enable-launch-screen-storyboard>true</enable-launch-screen-storyboard>
+        <use-app-thinning>true</use-app-thinning>
+        <plist>
+            <dict>
+                <key>UISupportedInterfaceOrientations~iphone</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                </array>
+                <key>UISupportedInterfaceOrientations~ipad</key>
+                <array>
+                    <string>UIInterfaceOrientationPortrait</string>
+                    <string>UIInterfaceOrientationPortraitUpsideDown</string>
+                    <string>UIInterfaceOrientationLandscapeLeft</string>
+                    <string>UIInterfaceOrientationLandscapeRight</string>
+                </array>
+                <key>UIRequiresPersistentWiFi</key>
+                <false/>
+                <key>UIPrerenderedIcon</key>
+                <false/>
+                <key>UIStatusBarHidden</key>
+                <false/>
+                <key>UIStatusBarStyle</key>
+                <string>UIStatusBarStyleDefault</string>
+            </dict>
+        </plist>
+    </ios>
+    <android xmlns:android="http://schemas.android.com/apk/res/android"/>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>true</enabled>
+            <inline-css-images>true</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules>
+        <module platform="commonjs">ti.cloud</module>
+    </modules>
+    <deployment-targets>
+        <target device="iphone">false</target>
+        <target device="ipad">false</target>
+        <target device="android">true</target>
+        <target device="mobileweb">false</target>
+    </deployment-targets>
+    <sdk-version>6.1.1.GA</sdk-version>
+    <property name="appc-app-id" type="string">597533775d778219088157a9</property>
+    <property name="acs-authbase-url-development" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-development" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-development" type="string">eaUvcvFdWNeGHK5xp7sy06vnc7nWyyFN</property>
+    <property name="acs-oauth-key-development" type="string">kb6918PXoNakqkaKY8sWaFW6s7mgEgei</property>
+    <property name="acs-api-key-development" type="string">iyUtggXhBc7gMYLYyvfTupQQeMBlQhAy</property>
+    <property name="acs-username-development" type="string">appc_app_user_dev</property>
+    <property name="acs-password-development" type="string">1Ug4Jg8aFNea5ZyrLC</property>
+    <property name="acs-authbase-url-production" type="string">https://secure-identity.cloud.appcelerator.com</property>
+    <property name="acs-base-url-production" type="string">https://api.cloud.appcelerator.com</property>
+    <property name="acs-oauth-secret-production" type="string">wV5Kt4xXAzXGjJtaX7MWi2A2XeM9hYnj</property>
+    <property name="acs-oauth-key-production" type="string">2Ael44BNntHMWEfVAuRnkd7uGZGGGRxZ</property>
+    <property name="acs-api-key-production" type="string">PlHSNsbkXTa2COrkRs7RpjZmPiQ3Q8x6</property>
+    <property name="acs-username-production" type="string">appc_app_user</property>
+    <property name="acs-password-production" type="string">jK7QfXBaF315UBTcmx</property>
+    <property name="appc-org-id" type="string">421545409674607</property>
+    <property name="appc-creator-user-id" type="string">93a39530-116b-4c3f-8b0b-1c6f4abdeab0</property>
+</ti:app>
